@@ -1,5 +1,16 @@
-/* RESET CSS PÁGINA */
+/*
+  nome_do_elemento {}
 
+  #id_do_elemento {}
+
+  .class_do_elemento {}
+
+  elemento, outro_elemento {}
+
+  elemento outro_elemento {}
+*/
+
+/* RESET CSS PÁGINA */
 * {
   padding:0;
   margin:0;
@@ -8,3 +19,17 @@
   border:0
 }
 
+h1 {
+  color:red;
+  font-size: 15px;
+}
+
+a {
+  font-size: 20px;
+  color: green;
+}
+
+li {
+  font-weight: bold;
+  color:blueviolet;
+}
