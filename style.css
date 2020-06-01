@@ -1,17 +1,6 @@
 /*
-  nome_do_elemento {}
-
-  #id_do_elemento {}
-
-  .class_do_elemento {}
-
-  elemento, outro_elemento {}
-
-  elemento outro_elemento {}
-*/
-
-/* RESET CSS PÁGINA */
-* {
+ RESET CSS PÁGINA 
+* (pega todos os elementos) {
   padding:0;
   margin:0;
   vertical-align:baseline;
@@ -19,17 +8,42 @@
   border:0
 }
 
-h1 {
-  color:red;
-  font-size: 15px;
-}
+  SELETORES CSS
 
-a {
-  font-size: 20px;
-  color: green;
-}
+  nome_do_elemento {}
 
-li {
-  font-weight: bold;
-  color:blueviolet;
+  #id_do_elemento {}
+  
+  .class_do_elemento {}
+
+  elemento, outro_elemento {}
+
+  elemento outro_elemento (ex: ol li) {}
+
+  CORES
+
+  background-color: red; pelo nome em inglês
+  
+  background-color:#89C781; hexadecimal
+  
+  color: rgb(200, 50, 137); rgb ou rgba 
+
+  BORDAS
+
+  border: 4px solid #00FF; - 
+  border: 4px dotted #00FF; - 
+  border: 4px dashed #00FF; - 
+
+  MARGINS E PADDING 
+
+  PADDING = Espaçamento Interno 
+
+  MARGIN = Espaçamento Externo
+
+*/
+
+.exemplo { 
+  border: 2px solid #00FF00;
+  padding: 10px;
+  margin: 10px;
 }
