@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.exemplo {
+  /* border = borda do elemento */
+  /* margin = margem externa do elemento */
+  /* padding = margem interna do elemento */
+  /* height = altura */
+  /* width = largura */
+
+  background-color: #00ff00;
+  border: 5px solid #000000;
+  margin: 20px;
+  padding: 10px;
+  height: 400px;
+  width: 400px;
+}
+
+/* 
+img {
+  width: 354px;
+  height: 116px;
+} */
